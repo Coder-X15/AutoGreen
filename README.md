@@ -12,6 +12,18 @@ Backed by a Supabase database and decorated by a beautiful React-based frontend,
 - Fallback on irrelevant requests :x:
 
 ## Setup
+### Database Tables:
+```sql
+create table public.greenhouse (
+  section varchar(5) primary key,
+  is_watered boolean not null default false,
+  last_watered timestamp default current_timestamp
+);
+
+insert into public.greenhouse(section) values (0),(1),(2),(3);
+```
+
+### Agent
 - `git clone https://github.com/Coder-X15/AutoGreen -b agent`
 - `cd AutoGreen` (**NB**: make sure to either rename this or clone the frontend to a different location in order to avoid conflict)
 - Add a `.env` file containing the following to the repo root:
