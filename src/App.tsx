@@ -97,7 +97,7 @@ function App() {
               <MessageCircle className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-semibold text-gray-800">Organic Chat</h1>
+              <h1 className="text-xl font-semibold text-gray-800">Olivia - Your Personal Greenhouse Manager</h1>
               <p className="text-sm text-green-600">Connected to Flask backend</p>
             </div>
           </div>
