@@ -13,6 +13,7 @@ Backed by a Supabase database and decorated by a beautiful React-based frontend,
 
 ## Setup
 ### Database Tables:
+- Run the following in the SQL Editor after starting a new project in Supabase:
 ```sql
 create table public.greenhouse (
   section varchar(5) primary key,
