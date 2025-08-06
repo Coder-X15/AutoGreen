@@ -1,4 +1,5 @@
 # Olivia - AutoGreen's Agent (Frontend) :leaves:
+(DISCLAIMER: THIS IS A FULLY VIBE-CODED FRONTEND)
 Powered by **Google's Gemini 1.5 Flash** LLM, Olivia is a chatbot that helps you manage your greenhouse like anything.
 
 Introducing **Olivia**, the intelligent greenhouse manager. :robot:
