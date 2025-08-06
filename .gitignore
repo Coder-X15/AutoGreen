@@ -1,0 +1,6 @@
+./agent/.env
+./agent/__pycache__/*
+./venv/*
+
+# Ignore Python cache files
+__pycache__/
